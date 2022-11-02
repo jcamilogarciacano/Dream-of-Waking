@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes 1/IntroScene.unity
+    guid: 8f2a8ad08fa972f4387ec898cf58cce5
+  - enabled: 1
+    path: Assets/Scenes 1/DogIntroduction.unity
+    guid: 6f85003fc0ab78844b1e320037b5cac0
+  - enabled: 1
+    path: Assets/Scenes 1/DarkPlace.unity
+    guid: 9621cb78bcf36694dab7df2505283ee1
+  - enabled: 1
+    path: Assets/Scenes 1/Testing.unity
+    guid: 2a5ea19d40a1d8b4e8353e6df0138b50
+  - enabled: 1
+    path: Assets/Scenes 1/FreezeToDead.unity
+    guid: b4f7729da853c164faa775b36d17285b
+  - enabled: 1
+    path: Assets/Scenes 1/InsideHouse.unity
+    guid: 1852227625f55f0409d740c4d287339b
+  - enabled: 1
+    path: Assets/Scenes 1/OutSide.unity
+    guid: 80a25820531a18c4b90123462050e767
+  - enabled: 1
+    path: Assets/Scenes 1/Puente_01.unity
+    guid: 18f27c41b8145b64f8925c332efa3dc0
+  - enabled: 1
+    path: Assets/Scenes 1/Cave.unity
+    guid: c075d4c8f001b2d4190f40cb01557172
+  - enabled: 1
+    path: Assets/Scenes 1/Boss.unity
+    guid: e408ea477c99b45449e0ad20cfcc4ea3
+  - enabled: 1
+    path: Assets/Scenes 1/Introduction.unity
+    guid: 04d726eefdb742b4cb4a4594dc879a09
+  - enabled: 1
+    path: Assets/Scenes 1/Puente_02.unity
+    guid: 06178a07249f0bb4bb1226c8b522b09a
+  - enabled: 1
+    path: Assets/Scenes 1/insideCamp.unity
+    guid: e473e955d7c21e54dbe402eb59dd5d0b
+  m_configObjects: {}

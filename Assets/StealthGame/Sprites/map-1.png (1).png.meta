@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: dcc567fe30467d440863b3d0d81505b7
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: upBush
+    21300002: treeTrees
+    21300004: map-1.png (1)_2
+    21300006: map-1.png (1)_4
+    21300008: map-1.png (1)_5
+    21300010: map-1.png (1)_6
+    21300012: map-1.png (1)_7
+    21300014: map-1.png (1)_9
+    21300016: Tree
+    21300018: map-1.png (1)_3
+    21300020: map-1.png (1)_8
+    21300022: downBush
+    21300024: twoSpears
+    21300026: insideBush
+    21300028: roots
+    21300030: bunchTrees
+    21300032: topTrees
+    21300034: singleTree
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: upBush
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 233
+        width: 63
+        height: 22
+      alignment: 9
+      pivot: {x: 0.50793654, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b60074122a3c3547bac6e7fa93489b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeTrees
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 191
+        width: 14
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2004514f4974f1a4b96347f39548ff17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map-1.png (1)_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 201
+        width: 113
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4051724, y: 0.64912283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0aa3b2c98f7cb4588a29dc36a9fa6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map-1.png (1)_4
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 212
+        width: 41
+        height: 35
+      alignment: 9
+      pivot: {x: 0.53658533, y: 0.71428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691bc63936748d14fa003818e9c0ca52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map-1.png (1)_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 110
+        width: 40
+        height: 69
+      alignment: 9
+      pivot: {x: 0.425, y: 0.28985506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5f5e856f972d144af246d811059e5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map-1.png (1)_6
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 112
+        width: 60
+        height: 69
+      alignment: 9
+      pivot: {x: 0.55, y: 0.28985506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf45a7df93c0aa4ba5a77bd5eae1778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map-1.png (1)_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 128
+        width: 87
+        height: 54
+      alignment: 9
+      pivot: {x: 0.54022986, y: 0.3703704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d4f416d189d1641a78137006a8e35d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map-1.png (1)_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 129
+        width: 68
+        height: 28
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.8928572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09b26b0eafde964ba84548c10482696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 27
+        width: 4
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1851852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd7801c91b6be84a8875618d7a29645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map-1.png (1)_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 5
+        width: 40
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae4838e49b9c5344b7d5fc1465b7021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map-1.png (1)_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 23
+        width: 4
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69fb438f841490468748874af5fd8c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: downBush
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 185
+        width: 12
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5833334, y: 0.3448276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5418656f237e4214688e847f5160289d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoSpears
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 206
+        width: 5
+        height: 27
+      alignment: 9
+      pivot: {x: 0.6, y: 0.3703704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf59dbd56745094c8226a4e576e5586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: insideBush
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 214
+        width: 30
+        height: 19
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.2631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb620c61151af734abd6e30876d0489f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roots
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 201
+        width: 5
+        height: 13
+      alignment: 9
+      pivot: {x: 0.4, y: 0.7692308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dbb23792c8759468bf7b526192cf35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunchTrees
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 209
+        width: 68
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39473686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e84a172b5ef32743b4158dc40cb6df9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topTrees
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 233
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d759c0a16125d8f49b942b2ccf8bc682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: singleTree
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 194
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae40ac6f25b6bb54e979def57c6cf697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 51fed9c2553c4b44586f65332e70eac5
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

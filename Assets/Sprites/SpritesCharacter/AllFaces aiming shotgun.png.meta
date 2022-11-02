@@ -1,0 +1,719 @@
+fileFormatVersion: 2
+guid: 6d4154d07d395e94d9f0a426533422aa
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AllFaces aiming shotgun_0
+    21300002: AllFaces aiming shotgun_1
+    21300004: AllFaces aiming shotgun_2
+    21300006: AllFaces aiming shotgun_3
+    21300008: AllFaces aiming shotgun_4
+    21300010: AllFaces aiming shotgun_5
+    21300012: AllFaces aiming shotgun_6
+    21300014: AllFaces aiming shotgun_7
+    21300016: AllFaces aiming shotgun_8
+    21300018: AllFaces aiming shotgun_9
+    21300020: AllFaces aiming shotgun_10
+    21300022: AllFaces aiming shotgun_11
+    21300024: AllFaces aiming shotgun_12
+    21300026: AllFaces aiming shotgun_13
+    21300028: AllFaces aiming shotgun_14
+    21300030: AllFaces aiming shotgun_15
+    21300032: AllFaces aiming shotgun_16
+    21300034: AllFaces aiming shotgun_17
+    21300036: AllFaces aiming shotgun_18
+    21300038: AllFaces aiming shotgun_19
+    21300040: AllFaces aiming shotgun_20
+    21300042: AllFaces aiming shotgun_21
+    21300044: AllFaces aiming shotgun_22
+    21300046: AllFaces aiming shotgun_23
+    21300048: AllFaces aiming shotgun_24
+    21300050: AllFaces aiming shotgun_25
+    21300052: AllFaces aiming shotgun_26
+    21300054: AllFaces aiming shotgun_27
+    21300056: AllFaces aiming shotgun_28
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_0
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1929
+        width: 122
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd46e90c65299fa46ba8ca1ceb4de1e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_1
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1929
+        width: 93
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50b50b4e152e074fa20e6d3c89ffa3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_2
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1929
+        width: 123
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7012c817bd982e641a9f04b5049d3f79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1689
+        width: 122
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318fc796ad41e34469063509d3f3d777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_4
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1679
+        width: 93
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43249907d1ad3d14bb3d8f68c8c8e0f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_5
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1689
+        width: 133
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdb9734e3afee44da48a4de1d0b54ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_6
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1449
+        width: 102
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d416ad1a5f555d4b91e358b2124e1b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_7
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1449
+        width: 73
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fabae2df87bd3468b4dd4eee4af5d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_8
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1449
+        width: 103
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84b3ad6177c1094c8e7354b99138b89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_9
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1209
+        width: 132
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1623ba68bd3ebde4cab83396198904f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_10
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1419
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0a37b6c9b01de4faad5c1e93542841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_11
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1209
+        width: 93
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586ca80ecb918dd4da7d39ac1da1bfc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_12
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1209
+        width: 132
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9082ff85008454394e76c85db16d3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_13
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1419
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9808b5adb4db349bd02565e65351d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_14
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 969
+        width: 132
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca43ec076cb85a74db00eb0e8ec5bdde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_15
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 959
+        width: 93
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3f0d7d9846b9c4ea60e710ef7f801e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_16
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 969
+        width: 142
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480e0622357dc9a4cac6f6d760fcc331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_17
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 729
+        width: 112
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb31f77202f7d244b8abf8d196259cc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_18
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 729
+        width: 73
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a16b9745b06864ea825a48cb8ed21c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_19
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 729
+        width: 112
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84228db0825dcf24dae04f009df8fa92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_20
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 489
+        width: 202
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6662feedcef4abf49bc62de014f4c12e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_21
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 478
+        width: 103
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13169ac06355002499fb39aca71c32e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_22
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 489
+        width: 172
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a962ab1a9fbefa74083cea0102bbd186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_23
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 248
+        width: 202
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c173d4d92b84441ae630fabf1fc20d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_24
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 239
+        width: 93
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b24925caf2134f47a9ced31a0d2e283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_25
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 248
+        width: 182
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225c46f1c25c5bd4f9a26f3109a0e906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_26
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 9
+        width: 152
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db74f580e030e5c4da05196800c94aa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_27
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 9
+        width: 92
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae57c6f54db141a47a9263ea5db71d9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllFaces aiming shotgun_28
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 9
+        width: 172
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcb727dc7c33a145b09678d738b2f27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 73c0ced53e175714a80794ead9c164ae
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

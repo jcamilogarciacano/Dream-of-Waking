@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9064a5e817360743bb697a1376c9d1d, type: 3}
+  m_Name: Railcam2DSettings
+  m_EditorClassIdentifier: 
+  rail_width: 6
+  rail_waypoint_handle_size: 0.5
+  rail_waypoint_create_button_size: 0.25
+  control_point_line_width: 3
+  control_point_handle_size: 0.5
+  rail_waypoint_follow_xy_color: {r: 0.1215686, g: 1, b: 0.1654902, a: 1}
+  rail_waypoint_follow_x_color: {r: 1, g: 0.8235294, b: 0.1176471, a: 1}
+  rail_waypoint_follow_y_color: {r: 0.1176471, g: 0.7333333, b: 1, a: 1}
+  rail_inactive_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  rail_waypoint_create_button_color: {r: 1, g: 1, b: 1, a: 1}
+  rail_waypoint_handle_color: {r: 1, g: 1, b: 1, a: 1}
+  rail_waypoint_delete_button_color: {r: 1, g: 0, b: 0, a: 1}
+  control_point_handle_color: {r: 1, g: 1, b: 1, a: 1}
+  control_point_line_1_color: {r: 1, g: 1, b: 1, a: 0.75}
+  control_point_line_2_color: {r: 1, g: 1, b: 1, a: 0.75}
+  rail_name_text_color: {r: 1, g: 1, b: 1, a: 1}
+  rail_name_text_size: 11
+  rail_name_text_background_color: {r: 0, g: 0, b: 0, a: 0.5}
+  rail_waypoint_index_text_color: {r: 1, g: 1, b: 1, a: 1}
+  rail_waypoint_index_text_size: 11
+  rail_waypoint_index_text_background_color: {r: 0, g: 0, b: 0, a: 0}
+  grid_snap_size: {x: 1, y: 1}
+  rail_waypoint_default_curve_type: 0
+  rail_waypoint_default_follow_axis: 0
+  on_create_rail_waypoint_inherit_curve_type: 1
+  on_create_rail_waypoint_inherit_follow_axis: 1
+  is_antialiasing_enabled: 1
+  rail_effect_target_point_color: {r: 1, g: 1, b: 1, a: 1}
