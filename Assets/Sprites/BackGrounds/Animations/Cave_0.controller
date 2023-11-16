@@ -34,8 +34,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 382e60ba1f700d848bdbb771ddaebeab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Continuara
---- !u!1101 &1101500335957596108
+  sceneName: Introduction
+  sprite: {fileID: 0}
+--- !u!1101 &1101665148808579318
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,12 +45,12 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions: []
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102037820852871436}
+  m_DstState: {fileID: 1102104099469087462}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0
+  m_TransitionDuration: 0.25
   m_TransitionOffset: 0
   m_ExitTime: 0.85
   m_HasExitTime: 1
@@ -57,7 +58,7 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1102 &1102037820852871436
+--- !u!1102 &1102104099469087462
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
@@ -94,7 +95,7 @@ AnimatorState:
   m_Speed: 0.2
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 1101500335957596108}
+  - {fileID: 1101665148808579318}
   m_StateMachineBehaviours:
   - {fileID: 114642260014510178}
   m_Position: {x: 50, y: 50, z: 0}
@@ -124,8 +125,8 @@ AnimatorStateMachine:
     m_State: {fileID: 1102227848934427966}
     m_Position: {x: 336, y: 48, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102037820852871436}
-    m_Position: {x: 461.9084, y: -115.939026, z: 0}
+    m_State: {fileID: 1102104099469087462}
+    m_Position: {x: 432, y: -24, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []

@@ -34,7 +34,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 382e60ba1f700d848bdbb771ddaebeab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: DarkPlace
+  sceneName: Testing
 --- !u!1101 &1101243317100566080
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -91,7 +91,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Player_Cinematic_Anim
-  m_Speed: 0.6
+  m_Speed: 0.42
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101243317100566080}

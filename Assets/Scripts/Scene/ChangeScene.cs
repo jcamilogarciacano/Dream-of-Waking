@@ -9,6 +9,8 @@ public class ChangeScene : MonoBehaviour {
 	// Use this for initialization
 	GameObject player;
 	GameObject mainCamera;
+	public bool unStuck = false;
+	public string sceneName;
 	public void CambioDeScena  (string NombreDeScena) {
        // SceneManager.LoadScene("menu");
 
@@ -36,9 +38,43 @@ public class ChangeScene : MonoBehaviour {
 			if (NombreDeScena == "Puzzle2") {
 				SceneManager.LoadScene (NombreDeScena, LoadSceneMode.Additive);
 			}
+		if (NombreDeScena == "IntroScene" )
+		{
+			StartCoroutine(WaitIfBugged(10f, NombreDeScena));
 		}
-		//Pause = true;
-    
-	
-	
+	}
+
+    private void FixedUpdate()
+    {
+		  
+    }
+    void OnTriggerEnter2D(Collider2D col)
+	{
+		if (col.CompareTag("Player") == true)
+		{
+			if (SceneManager.GetActiveScene().name == "HighWay")
+			{
+				this.gameObject.GetComponent<PauseAnim>().enabled = true;
+			}
+            else
+            {
+				SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+			}
+
+		}
+		else
+		{
+
+		}
+
+		//m_Rigidbody2D.AddForce( new Vector2 (-col.transform.position.x, -col.transform.position.y));
+	}
+	//Pause = true;
+
+	public IEnumerator WaitIfBugged(float waitTime, string name)
+	{
+		yield return new WaitForSeconds(waitTime);
+		SceneManager.LoadScene(name, LoadSceneMode.Single);
+	}
+
 }

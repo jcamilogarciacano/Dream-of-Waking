@@ -4,27 +4,31 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-	public GameObject enemies;
-	private int i;
+    public GameObject enemies;
+    private int i;
+    public int spawnRate = 100;
     // Start is called before the first frame update
     void Start()
     {
-     i=0;   
+        i = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(i>500){
-ReSpawnEnemies();
-i=0;
+        if (i > spawnRate)
+        {
+            ReSpawnEnemies();
+            i = 0;
         }
-        else{
-        	i++;
+        else
+        {
+            i++;
         }
     }
-     private void ReSpawnEnemies(){
-   
-    	Instantiate(enemies,new Vector3 (Random.Range(-20,20),Random.Range(-10,10),0f),transform.rotation);
+    private void ReSpawnEnemies()
+    {
+
+        Instantiate(enemies, new Vector3(Random.Range(-20, 20), Random.Range(-10, 10), 0f), transform.rotation);
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 public class SceneGO : MonoBehaviour {
 	public Scene sceneName;
-	bool Pause = false;
+	//bool Pause = false;
 	public GameObject arrow;
 	public Hits puntos;
 	// Use this for initialization

@@ -34,7 +34,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 382e60ba1f700d848bdbb771ddaebeab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: IntroScene
+  sceneName: Introduction
+  sprite: {fileID: 0}
 --- !u!1101 &1101421020116216482
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -65,7 +66,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Puente_02_Anim
-  m_Speed: 0.2
+  m_Speed: 0.3
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101421020116216482}

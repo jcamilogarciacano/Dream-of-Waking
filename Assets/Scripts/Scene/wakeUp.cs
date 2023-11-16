@@ -8,6 +8,9 @@ public class wakeUp : MonoBehaviour {
 	public GameObject kamera;
 	public GameObject oldCamera;
 	public GameObject splitHead;
+	public GameObject oldSplitHead;
+
+	public GameObject tutorialText;
 	public Animator m_Anim;  
 	// Use this for initialization
 	void Start () {
@@ -16,6 +19,16 @@ public class wakeUp : MonoBehaviour {
 		girl.SetActive(false);
 		oldCamera.SetActive(true);
 		kamera.SetActive(false);
+
+        try
+        {
+			tutorialText.SetActive(true);
+        }
+        catch (System.Exception)
+        {
+
+            return;
+        }
 	}
 	
 	// Update is called once per frame

@@ -22,12 +22,14 @@ public class FootSteps : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update ()
+    void FixedUpdate ()
 	{
 		print (vel);
+		if(m_Anim != null)
 		if (m_Anim.GetFloat ("Speed") > 0.2f || m_Anim.GetFloat ("Speed2") > 0.2f) {
-			if (timerStep > 6) {
-				footStepSound.PlayOneShot (steps[(int)Random.Range(0f,3f)], 0.8f);
+			//number refers to frequency of steps sounds
+			if (timerStep > 24) {
+				footStepSound.PlayOneShot (steps[(int)Random.Range(0f,3f)], 0.6f); //volumeScale
 				timerStep = 0;
 			}
 		}

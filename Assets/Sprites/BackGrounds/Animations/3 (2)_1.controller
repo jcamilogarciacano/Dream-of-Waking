@@ -34,7 +34,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 382e60ba1f700d848bdbb771ddaebeab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Boss
+  sceneName: HighWay
 --- !u!1101 &1101417004806435454
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

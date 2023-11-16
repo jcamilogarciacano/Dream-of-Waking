@@ -47,4 +47,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes 1/insideCamp.unity
     guid: e473e955d7c21e54dbe402eb59dd5d0b
+  - enabled: 1
+    path: Assets/Scenes 1/HighWay.unity
+    guid: cd01496478316bf4ea69abdd970396fc
+  - enabled: 1
+    path: Assets/Scenes 1/Underworld.unity
+    guid: be4285ce053825e4baa8a78a20a9ff9d
   m_configObjects: {}

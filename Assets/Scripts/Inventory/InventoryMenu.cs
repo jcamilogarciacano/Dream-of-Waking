@@ -15,7 +15,7 @@ public class InventoryMenu : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (Input.GetButtonDown("Inv") ){
+		/*if (Input.GetButtonDown("Inv") ){
 			Pause = !Pause;
 			Time.timeScale = (Pause) ? 1.00f : 0.00f;
 			if (Pause==false) {
@@ -24,7 +24,7 @@ public class InventoryMenu : MonoBehaviour {
 				SceneManager.UnloadSceneAsync ("Inventory");
 			}
 
-		}
+		}*/
 	}
 
 }

@@ -7,12 +7,12 @@ using UnityStandardAssets.CrossPlatformInput;
 public class DoorsInteractive : MonoBehaviour {
     public Transform pos;
     public GameObject target;
-    GameObject enemy;
-    bool Pause = true;
+    //GameObject enemy;
+    //bool Pause = true;
     public GameObject fog;
-    int turnoDelDialogo = 0;
+    //int turnoDelDialogo = 0;
 	bool interactuable=false;
-	bool waitDoor =false;
+	//bool waitDoor =false;
 	public SpriteRenderer playerR;
 	public InvertLayer invL;
 

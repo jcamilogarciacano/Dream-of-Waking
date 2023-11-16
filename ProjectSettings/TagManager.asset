@@ -13,6 +13,16 @@ TagManager:
   - Scene
   - enemyBody
   - Exit
+  - Info
+  - BossLife
+  - Tutorial
+  - Container
+  - AmmoInfo
+  - Ammo
+  - BulletsInfo
+  - Music
+  - Placeholder
+  - Cinematic
   layers:
   - Default
   - TransparentFX
@@ -24,8 +34,8 @@ TagManager:
   - 
   - players
   - enemies
-  - 
-  - 
+  - enemyBody
+  - enemyRange
   - 
   - 
   - 

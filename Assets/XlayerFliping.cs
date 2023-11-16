@@ -11,7 +11,16 @@ public class XlayerFliping : MonoBehaviour {
 	
 	// Update is called once per frame
 	void LateUpdate () {
-		//transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.y);
-		gameObject.GetComponent<SpriteRenderer> ().sortingOrder = (int)Camera.main.WorldToScreenPoint (gameObject.GetComponent<SpriteRenderer> ().bounds.min).y * -1;
-	}
+        //transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.y);
+        try
+        {
+            gameObject.GetComponent<SpriteRenderer>().sortingOrder = (int)Camera.main.WorldToScreenPoint(gameObject.GetComponent<SpriteRenderer>().bounds.min).y * -1;
+
+        }
+        catch (System.Exception)
+        {
+
+            return;
+        }
+		}
 }

@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.UI;
+using TMPro;
+using UnityEngine.SceneManagement;
 public class EnemyControllerSplit : MonoBehaviour {
-	public float enemyLife=600;
+	public int enemyLife=600;
 
 	private float m_MaxSpeed = 3f;            
 	private Animator m_Anim;            // Reference to the player's animator component.
@@ -18,6 +21,12 @@ public class EnemyControllerSplit : MonoBehaviour {
 	public int esqVal =0;
 	public bool atacar =false;
     public GameObject exitBoss;
+	public GameObject exitEffect;
+	public HealthBar lifeBar;
+	public GameObject healthBar;
+	public string sceneNameIfBugged;
+
+	public TMP_Text youWinText;
 
 	// Use this for initialization
 	private void Awake(){
@@ -25,14 +34,13 @@ public class EnemyControllerSplit : MonoBehaviour {
         exitBoss.SetActive(true);
         m_Anim = GetComponent<Animator>();
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
+		lifeBar.enabled = true;
+		//lifeBar = GameObject.FindGameObjectWithTag("BossLife").GetComponent<Image>();
 	}
 
 	// Update is called once per frame
 	void FixedUpdate () {
-		if (enemyLife<=0) {
-            exitBoss.SetActive(false);
-			Destroy (this.gameObject);	
-		}
+		
 		if (esquivar == true) {
 			pPosition = new Vector2 (player.transform.position.x + EsquivarCentroX(), player.transform.position.y+EsquivarCentroY());
 		} else {
@@ -51,6 +59,27 @@ public class EnemyControllerSplit : MonoBehaviour {
 		}
 
 		i++;
+	}
+    private void LateUpdate()
+    {
+		if (enemyLife <= 0)
+		{
+			healthBar.SetActive(false);
+			exitBoss.SetActive(false);
+			exitEffect.SetActive(true);
+			youWinText.enabled = true;
+			youWinText.GetComponent<DestroyThisObject>().DestroyThisGameobject();
+			Destroy(GameObject.Find("Music"));
+			GameObject.Find("ExitTrigger").GetComponent<ChangeScene>().CambioDeScena(sceneNameIfBugged);
+			Destroy(this.gameObject);
+
+		
+		}
+	}
+	public IEnumerator WaitIfBugged(float waitTime)
+	{
+		yield return new WaitForSeconds(waitTime);
+		SceneManager.LoadScene(name, LoadSceneMode.Single);
 	}
 	public void Move(float move,float move2)
 	{
